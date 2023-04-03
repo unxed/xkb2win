@@ -128,7 +128,7 @@ int main()
 		buf[r] = 0;
 		printf ("utf8 string from X11: %s\n", buf);
 
-		// Translate X11 KeySym to Windows key event field
+		// Translate X11 KeySym to Windows key codes
 		unsigned char* win_key_data = xkb_to_winkey(sym);
 
 		printf ("Windows VirtualKeyCode: %i %c\n",
