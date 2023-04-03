@@ -16,7 +16,7 @@ None of them has yet become widespread. Each has its own merits and demerits.
 
 As for April 2023 only for the first two protocols there are terminals that support them available for all operating systems (far2l supports both protocols on Linux/MacOS/BSD platforms; Windows Terminal supports first one on Windows platform; putty4far2l supports second one on Windows platform). Why? Probably because the kovidgoyal's kitty protocol is quite complicated and not so easy to implement, and the iTerm2 protocol is heavily tied to macOS keyboard input and doesn't look like something that will be widely used on other platforms sometime in the future.
 
-We come to the conclusion that one of the first two protocols (win32-input-mode and far2l terminal extensions) has a chance to become the de facto standard. Therefore, it makes sense to simplify its implementation in terminals.
+We come to the conclusion that one of the first two protocols (win32-input-mode and far2l terminal extensions) has a chance to become the de facto standard. Therefore, it makes sense to simplify their implementation in terminals.
 
 Both of these standards use encoding of data from Windows KEY_EVENT_RECORD structure to the form of escape sequences. The problem is that this structure uses Windows key codes that are not available on other platforms.
 
