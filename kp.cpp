@@ -1,3 +1,6 @@
+// https://github.com/unxed/xkb2win
+// License: CC0-1.0 license
+
 #include <X11/Xlib.h>
 #include <stdio.h>
 #include <stdlib.h>
