@@ -169,11 +169,11 @@ static unsigned char *xkb_to_winkey(int code)
 
 // Helper function to translate UTF8 char to its integer value
 // input:
-//   char - pointer to string buffer
+//   utf8 - pointer to string buffer
 // outout:
 //   out - integer value of unicode char
 // return
-//   number of utf8 bytes decoded
+//   count of utf8 bytes decoded
 int utf8_char_to_ucs2(char *utf8, wchar_t *out)
 {
     if (!utf8[0]) { *out = 0; return 0; }
