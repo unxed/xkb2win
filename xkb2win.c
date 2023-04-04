@@ -32,7 +32,7 @@
 // Windows Virtual Scan Codes list:
 // https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/17.0/com.vmware.player.win.using.doc/GUID-D2C43B86-32EF-44EA-A2ED-D890483D70BD.html
 // More info on Windows Key and Scan codes:
-// https://chromium.googlesource.com/chromium/src.git/+/39.0.2164.0/ui/events/keycodes/keyboard_code_conversion_x.cc
+// https://chromium.googlesource.com/chromium/src/+/refs/heads/main/ui/events/keycodes/keyboard_code_conversion_x.cc
 // https://chromium.googlesource.com/chromium/src/+/refs/heads/main/ui/events/keycodes/dom/dom_code_data.inc
 
 // This function translates XKB KeySym value (as defined /usr/include/X11/keysymdef.h)
