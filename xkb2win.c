@@ -58,7 +58,7 @@ static unsigned char *xkb_to_winkey(int code)
 		case XKB_KEY_Control_L:    { static unsigned char arr[3] = { 17,  29,   0}; return arr; } // VK_CONTROL
 		case XKB_KEY_Control_R:    { static unsigned char arr[3] = { 17,  29,   1}; return arr; } // VK_CONTROL
 		case XKB_KEY_Alt_L:        { static unsigned char arr[3] = { 18,  56,   0}; return arr; } // VK_MENU
-		case XKB_KEY_Alt_R:        { static unsigned char arr[3] = { 18, 133,   1}; return arr; } // VK_MENU
+		case XKB_KEY_Alt_R:        { static unsigned char arr[3] = { 18,  56,   1}; return arr; } // VK_MENU
 		case XKB_KEY_Caps_Lock:    { static unsigned char arr[3] = { 20,  58,   0}; return arr; } // VK_CAPITAL
 		case XKB_KEY_Escape:       { static unsigned char arr[3] = { 27,   1,   0}; return arr; } // VK_ESCAPE
 		case XKB_KEY_space:        { static unsigned char arr[3] = { 32,  57,   0}; return arr; } // VK_SPACE
